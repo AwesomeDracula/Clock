@@ -6,9 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h2>Count down to new year 2021</h2>
-	<div id="clock" onload="myFunction()"></div>
-	
-	<script type="text/javascript" src="script.js"></script>
+	<div class="content">
+		<h1>Today is</h1>
+		<span id="today"></span>
+	</div>
+	<div class="content">
+		<h1>Count down to new year 2021</h1>
+		<button id="button" onclick="startCountDown()">Count down</button>
+		<br>
+		<span id="clock"></span>
+	</div>
+	<script src="script.js"></script>
 </body>
 </html>
