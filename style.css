@@ -1,0 +1,13 @@
+body{
+	background-color: black;
+}
+
+h2{
+	color: red;
+	text-align: center;
+}
+
+#clock{
+	color: green;
+	text-align: center;
+}
